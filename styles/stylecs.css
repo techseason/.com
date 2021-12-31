@@ -13,15 +13,15 @@ background: var(--dark-blue-color);
 color: var(--white-color);
 } 
 .wrapper {
-  width:100%;
-  text-align: center;
-/* position: absolute; */
+width:100%;
+text-align: center;
+position: absolute;
 left: 50%;
 top: 50%;
-/* transform: translate(-50%, -50%); */
-/* -webkit-transform: translate(-50%, -50%); */
-/* animation: fadeIn 1000ms ease; */
-/* -webkit-animation: fadeIn 1000ms ease; */
+transform: translate(-50%, -50%);
+-webkit-transform: translate(-50%, -50%);
+animation: fadeIn 1000ms ease;
+-webkit-animation: fadeIn 1000ms ease;
 z-index: -999;
 }
 @keyframes fadeIn {

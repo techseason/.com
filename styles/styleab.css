@@ -1,10 +1,10 @@
 :root {
     --theme-color-1: #0084ff;
     --theme-color-2: #1c53df;
-    --bg-color: #000422;
-    --white-shade-1: #ffffff;
-    --white-shade-2: #d0d0d0;
-    --white-rgba: rgba(255, 255, 255, 0.12);
+    --bg-color: #ffffff;
+    --white-shade-1: #fdfffd;
+    --black-shade-2: #000000;
+    --white-rgba: rgba(53, 53, 53, 0.12);
   }
   * {
     padding: 0;
@@ -40,12 +40,12 @@
   .team-section .section-title h1{
     font-size: 40px;
     text-align: center;
-    color: #ffffff;
+    color: --black-shade-2;
     font-weight: 700;
   }
   h1::after{
     content: '';
-    background: #ffffff;
+    background: #000000;
     display: block;
     height: 3px;
     width: 150px;
@@ -55,7 +55,7 @@
     font-size:16px;
     text-align: center;
     margin: 30px;
-    color:#ffffff;
+    color:--black-shade-2;
   }
   .container {
     position: relative;
@@ -117,7 +117,7 @@
     font-size: 22px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    color: var(--white-shade-1);
+    color: var(--black-shade-2);
   }
   span {
     font-size: 14px;
@@ -141,7 +141,7 @@
     font-size: 25px;
     border-radius: 8px;
     text-decoration: none;
-    color: var(--white-shade-1);
+    color: var(--theme-color-2);
   }
   .icon:hover {
     transform: translateY(-10px);
