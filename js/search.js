@@ -1,7 +1,7 @@
 var $ = jQuery;
 $(function () {
   var availableTags = [
-    { value: "Mathematics-1", link: 'https://drive.google.com/u/0/uc?export=download&confirm=bCoY&id=1zV3R9VkiRQrWs9LjYCadPeaQOI5iq45w" class=stretched-link' },
+    { value: "Mathematics-1", link: 'https://drive.google.com/u/0/uc?export=download&confirm=bCoY&id=1zV3R9VkiRQrWs9LjYCadPeaQOI5iq45w' },
     { value: "Physics-1", link: 'https://drive.google.com/u/0/uc?export=download&confirm=SFYH&id=1eKSKaCEUH9ZDp8KaOUvY5Rru465JN1yk' },
     { value: "Economics", link: 'https://drive.google.com/uc?export=download&id=1nLZdoXIMiXpzPRswpt_iTkIDsOdVDqpA' },
     { value: "Enviroment Studies", link: 'https://drive.google.com/uc?export=download&id=1s--Bt3IWGHrjoriNEjkdl7LTc0ju_Kgm' },
